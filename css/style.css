@@ -1,0 +1,285 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* My CSS */
+
+p {
+  line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arapey', serif;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.header {
+
+}
+
+.page-top {
+  margin-top: 100px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.page-top__title{
+  color: #9db0d1;
+  font-size: 60px;
+  line-height: 66px;
+  padding-bottom: 50px;
+}
+
+.page-top__text {
+  margin: 0 auto;
+  width: 965px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.started-btn  {
+  margin: 0 auto;
+  background: #EBAC87;
+  width: 267px;
+  color: #fff; 
+}
+
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 24px 50px;
+  border-radius: 10px;
+  font-family: 'Arapey', serif;
+}
+
+.header-list {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 1180px;
+}
+
+.header-list__item {
+  align-items: center;
+}
+
+.header-list__circle {
+  background: #9DB0D1;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.main-section {
+  margin-top: 50px;
+}
+
+.section-clouds {
+  background: url('../img/clouds.png') repeat-x top / auto 200px, linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+}
+
+.section-clouds__title {
+  color: #000;
+  padding-top: 250px;
+}
+
+.main-content {
+  background: #87C6EB;
+}
+
+.main-cards {
+  padding-top: 50px;
+}
+
+.main-card {
+  width: 350px;
+  height: 560px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.main-card__circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin: 20px 0 10px 20px;
+}
+
+.cirle-first {
+  background: rgba(235, 172, 135, 0.4);
+}
+
+.main-card__img {
+  background: #ebac87;
+  width: 310px;
+  height: 310px;
+  margin: 0 auto;
+}
+
+.main-card__img img {
+  width: 100%;
+}
+
+.main-card__text {
+  width: 260px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.main-card__text span {
+  font-weight: 700;
+}
+
+.cirle-second {
+  background: rgba(235, 172, 135, 0.6);
+}
+
+.cirle-third {
+  background: #EBAC87;
+}
+
+.main-cards .main-card + .main-card {
+margin-left: 75px;
+}
+
+.add-section {
+  background: #87C6EB;
+}
+
+.action-content {
+  background: url('../img/mountain.png') no-repeat bottom right / 600px;
+  padding-bottom: 50px;
+  padding-top: 75px;
+}
+
+.action-content__title {
+  color: #fff;
+  width: 480px;
+  line-height: 44px;
+}
+
+.action-content__text {
+  width: 590px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.action-content__text span {
+  text-decoration: underline;
+}
+
+.action-content__btn {
+  background: #fff;
+  color: #EBAC87;
+  display: block;
+  width: 220px;
+}
+
+.faq-btn {
+  background: #EBAC87;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footer {
+  
+}
+
+.bottom-section {
+  margin: 74px 0;
+}
+
+.social-networks a {
+  text-decoration: none;
+}
+
+.social-networks a + a {
+  margin-left: 25px;
+}
